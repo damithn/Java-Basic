@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ListDemo {
+//        --can add duplicate element
+//        --ordered
+//        --*ArrayList - non synchronized
+//        --*LinedList - fast manipulate,not synchronized
+//        --*vector - thread safe|synchronized
+
     public void createArrayList() {
         //Create Any Type of Array List
         ArrayList arrayList = new ArrayList();
@@ -51,5 +57,7 @@ public class ListDemo {
 
         //Itarate usin foreach in arraylist
         arrayList.forEach(obj1 -> System.out.println("Inside foreach: "+obj1));
+
+
     }
 }
