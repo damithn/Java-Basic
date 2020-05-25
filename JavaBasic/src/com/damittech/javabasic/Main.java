@@ -1,6 +1,7 @@
 package com.damittech.javabasic;
 
 import com.damittech.javabasic.collectionFramework.ListDemo;
+import com.damittech.javabasic.collectionFramework.SetDemo;
 
 public class Main {
 
@@ -10,8 +11,11 @@ public class Main {
 //        ReverseString reverseString = new ReverseString();
 //        System.out.println(reverseString.reverseString("HelloWorld"));
 
-        ListDemo listDemo = new ListDemo();
-        listDemo.createArrayList();
+//        ListDemo listDemo = new ListDemo();
+//        listDemo.createArrayList();
+
+        SetDemo setDemo= new SetDemo();
+        setDemo.createSet();
 
     }
 }
