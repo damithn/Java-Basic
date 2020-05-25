@@ -1,4 +1,4 @@
-package com.damittech.javabasic;
+package com.damittech.javabasic.algorithm;
 
 
 import java.util.ArrayList;
