@@ -1,5 +1,6 @@
 package com.damittech.javabasic;
 
+import com.damittech.javabasic.algorithm.ReverseInteger;
 import com.damittech.javabasic.collectionFramework.ListDemo;
 import com.damittech.javabasic.collectionFramework.SetDemo;
 
@@ -14,8 +15,10 @@ public class Main {
 //        ListDemo listDemo = new ListDemo();
 //        listDemo.createArrayList();
 
-        SetDemo setDemo= new SetDemo();
-        setDemo.createSet();
+//        SetDemo setDemo= new SetDemo();
+//        setDemo.createSet();
 
+        ReverseInteger reverseInteger= new ReverseInteger();
+        reverseInteger.reverse(1234);
     }
 }
